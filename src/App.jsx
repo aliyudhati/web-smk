@@ -9,13 +9,10 @@ import TestimonialPage from "./pages/TestimonialPage";
 import SyaratKetenPage from "./pages/SyaratKetenPage";
 import FaqPage from "./pages/FaqPage";
 
-import "./index.css";
-
 function App() {
   return (
     <div>
       <NavbarComponent />
-
       <Routes>
         <Route path="/" Component={Homepage} />
         <Route path="/kelas" Component={KelasPage} />
