@@ -1,7 +1,5 @@
 const KelasPage = () => {
-  return (
-    <div>KelasPage</div>
-  )
-}
+  return <div>KelasPage</div>;
+};
 
-export default KelasPage
+export default KelasPage;

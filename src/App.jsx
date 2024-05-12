@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <NavbarComponent />
+
       <Routes>
         <Route path="/" Component={Homepage} />
         <Route path="/kelas" Component={KelasPage} />
@@ -21,7 +22,7 @@ function App() {
         <Route path="/faq" Component={FaqPage} />
       </Routes>
 
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </div>
   );
 }
