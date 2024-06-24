@@ -22,7 +22,7 @@ function App() {
         <Route path="/faq" Component={FaqPage} />
       </Routes>
 
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 }

@@ -128,3 +128,234 @@ header {
     font-size: 12px;
   }
 }
+
+/* STYLE HOMEPAGE KELAS */
+.homepage .kelas {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.homepage .kelas .row:nth-child(1) h1 {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.homepage .kelas .row:nth-child(1) h1,
+.homepage .kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.homepage .kelas .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+.homepage .kelas .row:nth-child(2) .col {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.homepage .kelas .row:nth-child(2) img {
+  height: 250px;
+}
+
+.homepage .kelas .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.homepage .kelas .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.homepage .kelas .row:nth-child(3) {
+  padding-top: 100px;
+}
+/* STYLE HOMEPAGE KELAS */
+
+/* STYLE HOMEPAGE TESTIMONIAL */
+.homepage .testimonial h1 {
+  color: var(--color-text);
+}
+
+.homepage .testimonial .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.homepage .testimonial .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  padding: 20px;
+
+  /* Center slide text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.homepage .testimonial .swiper-slide:active {
+  cursor: grabbing;
+}
+
+.homepage .testimonial .swiper-slide .desc {
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.homepage .testimonial .swiper-slide .people {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.homepage .testimonial .swiper-slide .people h5,
+.homepage .testimonial .swiper-slide .people p {
+  color: var(--color-text);
+}
+
+.homepage .testimonial .swiper-slide .people h5 {
+  font-weight: 600;
+}
+
+.homepage .testimonial .swiper-slide .people p {
+  opacity: 50%;
+}
+
+.homepage .testimonial .swiper-slide img {
+  width: 80%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .homepage .testimonial .swiper {
+    padding-inline: 10px;
+  }
+
+  .homepage .testimonial .swiper-slide .people {
+    justify-content: center;
+  }
+}
+
+/* STYLE HOMEPAGE TESTIMONIAL */
+
+/* STYLE FAQ */
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-color);
+}
+
+.faq h2 {
+  color: var(--color-text);
+}
+
+.faq .accordion .accordion-button {
+  color: var(--color-text);
+  font-weight: bold;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.faq .accordion .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.faq .accordion .accordion-body {
+  background-color: #ffffff;
+}
+/* STYLE FAQ */
+
+/* STYLE FOOTER */
+.footer {
+  width: 100%;
+  min-height: 60vh;
+}
+
+.footer .row:nth-child(1) .col:nth-child(1) h3 {
+  color: var(--color-text);
+}
+
+.footer .row:nth-child(1) .col:nth-child(1) .desc {
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .no a,
+.footer .mail a {
+  display: flex;
+  align-items: center;
+  color: black;
+  column-gap: 5px;
+}
+
+.footer .no a:hover,
+.footer .mail a:hover {
+  color: var(--secondary-color);
+}
+
+.footer .row:nth-child(1) .col:nth-child(2) {
+  gap: 10px;
+}
+
+.footer .row:nth-child(1) .col:nth-child(2) a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer .row:nth-child(1) .col:nth-child(2) a:hover {
+  color: var(--secondary-color);
+}
+
+.footer .subscribes {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer .subscribes input {
+  width: 200px;
+  height: 38px;
+  padding: 5px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .social i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.footer .social i:hover {
+  color: var(--secondary-color);
+}
+
+.footer .row:nth-child(2) {
+  margin-top: 100px;
+}
+/* STYLE FOOTER */
