@@ -232,7 +232,7 @@ header {
 }
 
 .homepage .testimonial .swiper-slide img {
-  width: 80%;
+  width: 80px;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -251,6 +251,107 @@ header {
 }
 
 /* STYLE HOMEPAGE TESTIMONIAL */
+
+/* STYLE KELAS */
+.kelas-page .kelas {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.kelas-page .kelas .row:nth-child(1) {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.kelas-page .kelas .row:nth-child(1) h1 {
+  color: var(--color-text);
+}
+
+.kelas-page .kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.kelas-page .kelas .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+.kelas-page .kelas .row:nth-child(2) .col {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.kelas-page .kelas .row:nth-child(2) img {
+  height: 250px;
+}
+
+.kelas-page .kelas .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.kelas-page .kelas .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: bold;
+  line-height: 1.5;
+}
+/* STYLE KELAS */
+
+/* STYLE TESTIMONIAL */
+.testimonial-page .testimonial {
+  background-color: var(--primary-color);
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.testimonial-page .testimonial {
+  padding-bottom: 100px;
+}
+
+.testimonial-page .testimonial .row:nth-child(1) h1 {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .desc {
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.testimonial-page .testimonial .people {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.testimonial-page .testimonial .people h5,
+.testimonial-page .testimonial .people p {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .people h5 {
+  font-weight: 600;
+}
+
+.testimonial-page .testimonial .people p {
+  opacity: 50%;
+}
+
+.testimonial-page .testimonial .people img {
+  width: 80px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+/* STYLE TESTIMONIAL */
 
 /* STYLE FAQ */
 .faq {

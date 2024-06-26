@@ -9,3 +9,4 @@ const FaqPage = () => {
 };
 
 export default FaqPage;
+//TODO: Menambahkan Style pada Halaman FAQ
