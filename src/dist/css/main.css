@@ -22,6 +22,8 @@
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   z-index: 9999;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
 }
 
 .navbar.color-active {
@@ -71,6 +73,7 @@ header {
   font-size: 3.2rem;
   font-weight: 600;
   color: var(--color-text);
+  --animate-delay: 0.6s;
 }
 
 .homepage .header-box h1 span {
@@ -81,8 +84,12 @@ header {
   line-height: 2;
   color: var(--color-text);
   font-weight: 500;
+  --animate-delay: 1s;
 }
 
+.homepage .header-box button {
+  --animate-delay: 1.4s;
+}
 .homepage .header-box img {
   width: 100%;
 }
@@ -353,6 +360,17 @@ header {
 }
 /* STYLE TESTIMONIAL */
 
+/* STYLE SYARAT & KETENTUAN */
+.syarat-ketentuan-page .syarat-ketentuan {
+  padding-top: 150px;
+  background-color: var(--primary-color);
+}
+
+.syarat-ketentuan-page .syarat-ketentuan p {
+  line-height: 2;
+}
+/* STYLE SYARAT & KETENTUAN */
+
 /* STYLE FAQ */
 .faq {
   padding-top: 100px;
@@ -384,7 +402,7 @@ header {
 /* STYLE FOOTER */
 .footer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 30vh;
 }
 
 .footer .row:nth-child(1) .col:nth-child(1) h3 {

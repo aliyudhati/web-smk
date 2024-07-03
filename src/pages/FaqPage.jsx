@@ -2,11 +2,10 @@ import FaqComponent from "../components/FaqComponent";
 
 const FaqPage = () => {
   return (
-    <div>
+    <div className="pt-5">
       <FaqComponent />
     </div>
   );
 };
 
 export default FaqPage;
-//TODO: Menambahkan Style pada Halaman FAQ
